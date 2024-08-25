@@ -1,0 +1,141 @@
+$date
+	Thu May 04 15:18:23 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module jkffstr_tb $end
+$var wire 1 ! QBAR2 $end
+$var wire 1 " QBAR1 $end
+$var wire 1 # Q2 $end
+$var wire 1 $ Q1 $end
+$var reg 1 % CLK $end
+$var reg 1 & J $end
+$var reg 1 ' K $end
+$var integer 32 ( i [31:0] $end
+$scope module uut $end
+$var wire 1 % clk $end
+$var wire 1 ) clk_not $end
+$var wire 1 & j $end
+$var wire 1 ' k $end
+$var wire 1 * nand1_out $end
+$var wire 1 + nand2_out $end
+$var wire 1 , nand3_out $end
+$var wire 1 - nand4_out $end
+$var wire 1 $ q1 $end
+$var wire 1 # q2 $end
+$var wire 1 " qbar1 $end
+$var wire 1 ! qbar2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1-
+0,
+1+
+1*
+1)
+bx (
+0'
+1&
+0%
+1$
+0#
+0"
+1!
+$end
+#1
+b0 (
+0!
+0"
+1#
+1$
+#11
+1,
+0)
+b1 (
+1%
+#20
+0$
+1"
+0+
+1'
+0&
+#21
+0#
+1!
+0-
+1)
+1+
+b10 (
+0%
+#31
+1-
+0)
+b11 (
+1%
+#40
+0'
+#41
+0-
+1)
+b100 (
+0%
+#51
+1-
+0)
+b101 (
+1%
+#60
+0"
+1$
+0*
+1'
+1&
+#61
+0!
+1#
+0,
+1)
+1*
+b110 (
+0%
+#71
+0$
+1,
+1"
+0)
+0+
+b111 (
+1%
+#81
+0#
+1!
+0-
+1)
+1+
+b1000 (
+0%
+#91
+0"
+1-
+1$
+0)
+0*
+b1001 (
+1%
+#101
+0!
+1#
+0,
+1)
+1*
+b1010 (
+0%

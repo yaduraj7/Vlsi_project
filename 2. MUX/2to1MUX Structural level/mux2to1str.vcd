@@ -1,0 +1,75 @@
+$date
+	Thu May 04 11:30:03 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module mux2to1str_tb $end
+$var wire 1 ! y $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$var reg 1 $ sel $end
+$scope module uut $end
+$var wire 1 " a $end
+$var wire 1 % a_nand_sel $end
+$var wire 1 & ab_nand $end
+$var wire 1 # b $end
+$var wire 1 ' b_nand_sel $end
+$var wire 1 $ sel $end
+$var wire 1 ( sel_not $end
+$var wire 1 ! y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1(
+1'
+0&
+1%
+0$
+0#
+0"
+0!
+$end
+#5
+1#
+#10
+1!
+1&
+0%
+0#
+1"
+#15
+1#
+#20
+0!
+0&
+1%
+0(
+0#
+0"
+1$
+#25
+1!
+1&
+0'
+1#
+#30
+0!
+0&
+1'
+0#
+1"
+#35
+1!
+1&
+0'
+1#
+#40
